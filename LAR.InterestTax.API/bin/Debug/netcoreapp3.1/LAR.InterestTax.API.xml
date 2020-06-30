@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>LAR.InterestTax.API</name>
+    </assembly>
+    <members>
+        <member name="T:LAR.InterestTax.API.Controllers.InterestTaxController">
+            <summary>
+            This controller is responsible for providing the Interest Tax resource
+            </summary>
+        </member>
+        <member name="M:LAR.InterestTax.API.Controllers.InterestTaxController.Get">
+            <summary>
+            Method to get the interest tax value
+            </summary>
+            <returns> a decimal parameter representing the interest tax value</returns>
+        </member>
+    </members>
+</doc>
