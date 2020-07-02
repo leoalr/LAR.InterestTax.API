@@ -37,3 +37,4 @@ C:\repos\LAR.InterestTax.API\LAR.InterestTax.API\bin\Debug\netcoreapp3.1\netcore
 C:\repos\LAR.InterestTax.API\LAR.InterestTax.API\bin\Debug\netcoreapp3.1\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
 C:\repos\LAR.InterestTax.API\LAR.InterestTax.API\bin\Debug\netcoreapp3.1\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\repos\LAR.InterestTax.API\LAR.InterestTax.API\bin\Debug\netcoreapp3.1\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\repos\LAR.InterestTax.API\LAR.InterestTax.API\obj\Debug\netcoreapp3.1\LAR.InterestTax.API.csprojAssemblyReference.cache

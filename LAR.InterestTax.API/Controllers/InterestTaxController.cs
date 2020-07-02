@@ -1,4 +1,6 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using LAR.InterestTax.API.Response;
+using Microsoft.AspNetCore.Mvc;
+using System.Threading.Tasks;
 
 namespace LAR.InterestTax.API.Controllers
 {
@@ -9,13 +11,19 @@ namespace LAR.InterestTax.API.Controllers
     [ApiController]
     public class InterestTaxController : ControllerBase
     {
+        private const decimal DEFAULT_INTEREST_TAX_VALUE = 0.01M;
+
         /// <summary>
         /// Method to get the interest tax value
         /// </summary>
         /// <returns> a decimal parameter representing the interest tax value</returns>
-        [HttpGet] public decimal Get()
+        [HttpGet]
+        public async Task<GetInterestTaxResponse> Get()
         {
-            return 0.01M;
+            return new GetInterestTaxResponse()
+            {
+                InterestTax = DEFAULT_INTEREST_TAX_VALUE
+            };
         }
     }
 }

@@ -15,5 +15,25 @@
             </summary>
             <returns> a decimal parameter representing the interest tax value</returns>
         </member>
+        <member name="T:LAR.InterestTax.API.Response.GetInterestTaxResponse">
+            <summary>
+            Class representing the response of the GET Method of the InterestTax resource
+            </summary>
+        </member>
+        <member name="P:LAR.InterestTax.API.Response.GetInterestTaxResponse.InterestTax">
+            <summary>
+            Property representing the InterestTax value
+            </summary>
+        </member>
+        <member name="P:LAR.InterestTax.API.Response.ResponseBase.Success">
+            <summary>
+            A boolean property representing the success of the operation
+            </summary>
+        </member>
+        <member name="P:LAR.InterestTax.API.Response.ResponseBase.ErrorMessages">
+            <summary>
+            An array of string messages representing possible errors ocurred during the operation
+            </summary>
+        </member>
     </members>
 </doc>
