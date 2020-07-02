@@ -25,6 +25,23 @@
             Property representing the InterestTax value
             </summary>
         </member>
+        <member name="T:LAR.InterestTax.API.Response.ResponseBase">
+            <summary>
+            Base class to define common properties to all API responses
+            </summary>
+        </member>
+        <member name="M:LAR.InterestTax.API.Response.ResponseBase.#ctor(System.Int32)">
+            <summary>
+            Basic class constructor to initialize ErrorMessages property
+            </summary>
+        </member>
+        <member name="M:LAR.InterestTax.API.Response.ResponseBase.#ctor(System.Int32,System.String)">
+            <summary>
+            Class constructor which requires mandatory statusCode and errorMessage
+            </summary>
+            <param name="statusCode">The StatusCode for the HttpResponse</param>
+            <param name="errorMessage">An error message describing what happened</param>
+        </member>
         <member name="P:LAR.InterestTax.API.Response.ResponseBase.Success">
             <summary>
             A boolean property representing the success of the operation
@@ -34,6 +51,18 @@
             <summary>
             An array of string messages representing possible errors ocurred during the operation
             </summary>
+        </member>
+        <member name="P:LAR.InterestTax.API.Response.ResponseBase.StatusCode">
+            <summary>
+            Status code of the Http Response
+            </summary>
+        </member>
+        <member name="M:LAR.InterestTax.API.Response.ResponseBase.ExecuteResultAsync(Microsoft.AspNetCore.Mvc.ActionContext)">
+            <summary>
+            Method that implements IActionResult
+            </summary>
+            <param name="context">The called action context</param>
+            <returns>An awaitable task</returns>
         </member>
     </members>
 </doc>
