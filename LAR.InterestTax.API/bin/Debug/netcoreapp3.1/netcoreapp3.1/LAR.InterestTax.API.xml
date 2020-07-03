@@ -9,6 +9,12 @@
             This controller is responsible for providing the Interest Tax resource
             </summary>
         </member>
+        <member name="M:LAR.InterestTax.API.Controllers.InterestTaxController.#ctor(LAR.InterestTax.API.Configuration.AppOptions)">
+            <summary>
+            Controller constructor receiving dependencies through DI
+            </summary>
+            <param name="options">The application options received by DI</param>
+        </member>
         <member name="M:LAR.InterestTax.API.Controllers.InterestTaxController.Get">
             <summary>
             Method to get the interest tax value
